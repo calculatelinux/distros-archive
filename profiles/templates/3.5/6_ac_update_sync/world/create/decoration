@@ -1,0 +1,48 @@
+# Calculate name=world format=world
+
+#?in(os_linux_pkglist, CLD, CLDC, CLDL, CLDM, CLDX, CLDXS, CDS)!=#
+media-gfx/grub-splashes-calculate
+#in#
+
+#?in(os_linux_pkglist, CLD, CLDC, CLDL, CLDM, CLDX, CLDXS)!=#
+media-gfx/calculate-wallpapers
+media-gfx/dm-themes-calculate
+media-gfx/splash-themes-calculate
+x11-themes/calculate-icon-theme
+#in#
+
+#?in(os_linux_pkglist, CLDC, CLDL, CLDM, CLDX, CLDXS)!=#
+media-gfx/lightdm-themes-calculate
+x11-themes/adwaita-qt
+#in#
+
+#?in(os_linux_pkglist, CLDC, CLDM, CLDX, CLDXS)!=#
+x11-misc/qt5ct
+#in#
+
+#?in(os_linux_pkglist, CLDM, CLDX, CLDXS)!=#
+x11-themes/claws-mail-theme-calculate
+#in#
+
+#?in(os_linux_pkglist, CLDX, CLDXS)!=#
+media-gfx/xfce-themes-calculate
+x11-themes/elementary-xfce-icon-theme
+x11-themes/gnome-themes-standard
+x11-themes/gtk-engines
+x11-themes/xfwm4-themes
+#in#
+
+#?in(os_linux_pkglist, CLD)!=#
+kde-frameworks/oxygen-icons
+media-fonts/oxygen-fonts
+media-gfx/plasma-themes-calculate
+#in#
+
+#?in(os_linux_pkglist, CLDL)!=#
+media-gfx/lxqt-themes-calculate
+x11-misc/compton
+x11-themes/claws-mail-theme-papirus
+x11-themes/papirus-icon-theme
+x11-themes/papirus-libreoffice-theme
+x11-themes/papirus-smplayer-theme
+#in#
